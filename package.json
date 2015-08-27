@@ -8,7 +8,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node_modules/strong-arc/bin/cli.js"
+    "start": "cd node_modules && strong-arc/bin/cli.js"
   },
   "author": "Sai Vennam (svennam92@gmail.com)",
   "license": "ISC"
