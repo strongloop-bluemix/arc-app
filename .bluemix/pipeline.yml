@@ -15,4 +15,4 @@ stages:
       space: ${CF_SPACE}
       application: ${CF_APP}
     script: |
-      cf push "${CF_APP}" 
+      cf push -m 384M "${CF_APP}" 
